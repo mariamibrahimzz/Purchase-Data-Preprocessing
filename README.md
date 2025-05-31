@@ -13,15 +13,28 @@ This project focuses on preprocessing and cleaning a raw dataset related to cust
 - Prepare a clean version of the dataset ready for further analysis.
 
 ---
+## 📋 Dataset Overview
 
-## 📂 Dataset
+| Column         | Description                                      |
+|----------------|--------------------------------------------------|
+| `invoice_number` | Encoded invoice identifier                      |
+| `invoice_time`   | Timestamp of the transaction (MM/DD/YY HH:MM)   |
+| `store_id`       | Identifier of the store where purchase occurred |
+| `product_id`     | Product identifier                              |
+| `category_id`    | Product category code                           |
+| `num_item`       | Number of items purchased                       |
+| `price`          | Price per item                                  |
 
-The dataset used (`purchase_data.csv`) contains purchase records, including:
-- Customer details
-- Purchase categories
-- Transaction amounts
-- Date and time of transactions
+---
 
+## 🧰 Processing Goals
+
+- Convert scientific notation in `invoice_number` to readable integers
+- Convert `invoice_time` to datetime format
+- Remove duplicate transactions
+- Identify and handle missing or zero values
+- Normalize column types and names
+- Create a cleaned dataset ready for analysis
 ---
 
 ## 🛠️ Techniques Used
