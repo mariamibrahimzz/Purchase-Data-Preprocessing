@@ -48,7 +48,7 @@ After processing, the cleaned dataset:
 ## 📁 Files Included
 
 - `purchase_data.csv` – original dataset
-- `pandas.py` – Python script with all preprocessing steps
+- `pandas+practice.py` – Python script with all preprocessing steps
 
 ---
 
@@ -58,3 +58,5 @@ After processing, the cleaned dataset:
 2. Ensure you have `pandas` installed:
    ```bash
    pip install pandas
+## 📌 Note
+Cleaning and preprocessing is one of the most critical steps in any data pipeline. This project is a solid foundation for anyone looking to strengthen their real-world data handling skills.
